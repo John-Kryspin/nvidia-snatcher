@@ -51,8 +51,8 @@ for (const microCenterLocation of microCenterLocations) {
 			{
 				brand: 'evga',
 				model: 'xc3 ultra',
-				series: '3080',
-				url: `https://www.microcenter.com/product/628344/evga-geforce-rtx-3080-xc3-ultra-gaming-triple-fan-10gb-gddr6x-pcie-40-graphics-card/?storeid=${storeId}`
+				series: '5800x',
+				url: `https://www.microcenter.com/product/630284/amd-ryzen-7-5800x-vermeer-38ghz-8-core-am4-boxed-processor/?storeid=${storeId}`
 			},
 			{
 				brand: 'evga',

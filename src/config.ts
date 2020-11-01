@@ -250,7 +250,7 @@ const store = {
 			series: envOrString(series)
 		};
 	}),
-	showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, ['3070', '3080', '3090']),
+	showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, ['5800x']),
 	stores: envOrArray(process.env.STORES, ['nvidia']).map(entry => {
 		const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
 		return {
